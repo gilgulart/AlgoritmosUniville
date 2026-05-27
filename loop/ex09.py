@@ -27,8 +27,8 @@ for i in range(20):
                      2- Madruga
                      3- Maurílio
                      4- Betão
-                     5- Votar Branco
-                     6- Votar Nulo
+                     5- Votar Nulo
+                     6- Votar Branco
                      """))
     while vote not in urna:
         print("vote em um candidato válido...")
@@ -37,8 +37,8 @@ for i in range(20):
                      2- Madruga
                      3- Maurílio
                      4- Betão
-                     5- Votar Branco
-                     6- Votar Nulo
+                     5- Votar Nulo
+                     6- Votar Branco
                      """))
     if vote ==  1:
         zezinho += 1
@@ -53,12 +53,12 @@ for i in range(20):
         betao += 1
     
     elif vote == 5:
-        branco += 1
-        
-    elif vote == 6:
         nulo += 1
         
+    elif vote == 6:
+        branco += 1
+        
 print(f"Zezinho: {zezinho}, Madruga: {madruga}, Maurílio: {maurilio}, Betão: {betao}, Brancos: {branco}, Nulo: {nulo} ")  
-print(f"Zezinho: {(zezinho / 20) * 100}%, Madruga: {(madruga / 20) * 100}%, Maurílio: {(maurilio / 20) * 100}%, Betão: {(betao / 20) * 100}%, Brancos: {(branco / 20) * 100}%, Nulo: {(nulo / 20) * 100}%")   
+print(f"Zezinho: {(zezinho / 20) * 100}%, Madruga: {(madruga / 20) * 100}%, Maurílio: {(maurilio / 20) * 100}%, Betão: {(betao / 20) * 100}%, Nulos: {(nulo / 20) * 100}%, Brancos: {(branco / 20) * 100}%")   
     
         
