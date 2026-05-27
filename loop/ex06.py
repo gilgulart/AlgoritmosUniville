@@ -9,5 +9,5 @@
 
 num = int(input("informe um número: "))
 
-for i in range(11):
+for i in range(1, 11):
     print(f"{num} x {i} = {num * i}")

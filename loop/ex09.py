@@ -58,7 +58,8 @@ for i in range(20):
     elif vote == 6:
         branco += 1
         
-print(f"Zezinho: {zezinho}, Madruga: {madruga}, Maurílio: {maurilio}, Betão: {betao}, Brancos: {branco}, Nulo: {nulo} ")  
+maior = max(zezinho, madruga, maurilio, betao, nulo, branco)
+print(f"Zezinho: {zezinho}, Madruga: {madruga}, Maurílio: {maurilio}, Betão: {betao}, Nulo: {nulo}, Brancos: {branco} ")  
 print(f"Zezinho: {(zezinho / 20) * 100}%, Madruga: {(madruga / 20) * 100}%, Maurílio: {(maurilio / 20) * 100}%, Betão: {(betao / 20) * 100}%, Nulos: {(nulo / 20) * 100}%, Brancos: {(branco / 20) * 100}%")   
     
         
