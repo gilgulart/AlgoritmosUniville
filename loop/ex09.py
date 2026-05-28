@@ -59,6 +59,17 @@ for i in range(20):
         branco += 1
         
 maior = max(zezinho, madruga, maurilio, betao, nulo, branco)
+if maior == zezinho:
+    print(f"Zézinho eleito com {zezinho} votos")
+elif maior == madruga:
+    print(f"Madruga eleito com {madruga} votos")
+elif maior == maurilio:
+    print(f"Maurilio eleito com {maurilio} votos")
+elif maior == betao:
+    print(f"Betão eleito com {betao} votos")
+elif maior == nulo or maior == branco:
+    print(f"Eleição com recorde de abstenções")
+
 print(f"Zezinho: {zezinho}, Madruga: {madruga}, Maurílio: {maurilio}, Betão: {betao}, Nulo: {nulo}, Brancos: {branco} ")  
 print(f"Zezinho: {(zezinho / 20) * 100}%, Madruga: {(madruga / 20) * 100}%, Maurílio: {(maurilio / 20) * 100}%, Betão: {(betao / 20) * 100}%, Nulos: {(nulo / 20) * 100}%, Brancos: {(branco / 20) * 100}%")   
     
