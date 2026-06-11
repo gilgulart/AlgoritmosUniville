@@ -24,7 +24,7 @@ def primo(list):
             print(f"{num} é primo!")
             lista_primos.append(num)
 
-    print(len(lista_primos))
+    print(lista_primos)
 
 listaNumero(num)
 primo(numbers)
