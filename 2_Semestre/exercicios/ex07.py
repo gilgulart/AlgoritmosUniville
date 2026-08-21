@@ -5,10 +5,9 @@
 # (ou seja, se a divisão de $a$ por $b$ tiver resto zero) e 'False' caso contrário.
 
 def is_multiple(num: int, multiple: int):
-    if num % multiple == 0:
-        return True
+    status = True if num % multiple == 0 else False
     
-    return False
+    return status
 
 print(is_multiple(3, 2))
 print(is_multiple(4, 2))

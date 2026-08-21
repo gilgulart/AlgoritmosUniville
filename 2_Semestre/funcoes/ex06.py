@@ -1,4 +1,4 @@
-def is_peer(num):
+def is_peer(num: int):
     status =  True if num % 2 == 0 else False
     return status
 

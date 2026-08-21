@@ -6,3 +6,5 @@ def fatorial(num: int):
         return "valor inválido"
     
     return num * fatorial(num - 1)
+
+print(fatorial(5))

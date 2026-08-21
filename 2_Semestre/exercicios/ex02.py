@@ -3,12 +3,9 @@
 # Crie uma função chamada 'maior_de_dois(a, b)' que recebe dois números inteiros ou 
 # flutuantes e retorna o maior entre eles. Se forem iguais, pode retornar qualquer um dos dois.
 
-def maior_de_dois(a, b):
+def maior_de_dois(a: float, b: float):
 
-    if a == b:
-        return a or b
-
-    if a > b:
+    if a >= b:
         return a
 
     return b
