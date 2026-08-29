@@ -1,11 +1,18 @@
-def is_palindrome(word: str):
-    if len(word) <= 1:
-        return True
+def is_palindrome(phrase: str):
+    phrase = phrase.lower()
     
-    if word[-1] == word [0]:
-        is_palindrome(word[1:-1])
-        return True
+    if len(phrase) <= 1:
+            return True
+        
+    elif phrase[0] == phrase[-1]:
+       status = is_palindrome(phrase[1:-1])
+       return status
 
     return False
 
-print(is_palindrome("ana"))
+phrase = input("Informe uma frase e verifique se é palíndromo: ")
+
+print("É palíndromo" if is_palindrome(phrase) else "Não é palíndromo")
+
+
+

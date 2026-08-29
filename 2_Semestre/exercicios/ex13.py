@@ -10,4 +10,4 @@ def sauda2(nome):
 def tchau():
     print("Ok, tchau!")
   
-sauda("Gilberto")   
+sauda("Gilberto")
